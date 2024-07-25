@@ -4,3 +4,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+#pratofiorito {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pratofiorito>* {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pratofiorito > .cliccato{
+    background-color: coral;
+}
+
+#pratofiorito > .bomb{
+    background-color: red;
+    border-color: red;
+}
+
+#pratofiorito > .notbomb{
+    background-color: green;
+    border-color: green;
+}
+}
